@@ -142,9 +142,6 @@ plt.show()
 
 
 #---Partial Dependence Plots---
-fig, ax = plt.subplots(figsize=(12, 10))
-PartialDependenceDisplay.from_estimator(best_rf, X_test, features, ax=ax)
-plt.tight_layout()
-plt.show()
+
 
 
